@@ -22,16 +22,17 @@
     <header class="py-4 fixed-top bg-light">
         <div class="container">
             <div class="row">
-                <div class="col-xl-12">
+                <div class="col-12">
                     <nav class="navbar navbar-expand-lg">
                         <div class="site-logo">
-                            <a class="navbar-brand" href="#">
+                            <a class="navbar-brand" href="https://fynila.github.io/edu-bee/">
                                 <img src="assets/images/edubee-logo.svg" alt="">
                             </a>
                         </div>
                         <div class="nav-mobile-btn d-flex ">
                             <div class="nav-btn d-block d-lg-none pe-2">
-                                <button class="btn edu-btn-primary" class="btn edu-btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Register</button>
+                                <button class="btn edu-btn-primary" class="btn edu-btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">Register</button>
                             </div>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -42,27 +43,28 @@
                         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                             <ul class="navbar-nav mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Courses</a>
+                                    <a class="nav-link" href="#course">Courses</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Deals</a>
+                                    <a class="nav-link" href="#deals">Deals</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Success</a>
+                                    <a class="nav-link" href="#success">Success</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
+                                    <a class="nav-link" href="#faq">FAQ</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact Us</a>
+                                    <a class="nav-link" href="https://fynila.github.io/edu-bee/contact">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="nav-btn d-none d-lg-block">
-                            <button class="btn edu-btn-primary" class="btn edu-btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Register</button>
+                            <button class="btn edu-btn-primary" class="btn edu-btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Register</button>
                         </div>
                     </nav>
                 </div>
@@ -72,7 +74,7 @@
     <!-- header end  -->
     <main>
         <!-- slide start  -->
-        <section class="slider-area pt-100">
+        <section id="home" class="slider-area pt-100">
             <div class="container">
                 <div id="main-slider-controls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner theme-bg pt-100 rounded-3">
@@ -150,7 +152,7 @@
         </section>
         <!-- slide end  -->
         <!-- course area start  -->
-        <section class="course-area">
+        <section id="course" class="course-area">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -252,7 +254,7 @@
         </section>
         <!-- course area end  -->
         <!-- feature-area start -->
-        <section class="features-area my-100">
+        <section id="deals" class="features-area my-100">
             <div class="container">
                 <div class="card mb-3 border-0 shadow">
                     <div class="row g-3  align-items-center">
@@ -310,47 +312,13 @@
                             <button class="btn edu-btn-primary" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">Register Now</button>
                         </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Register Now</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body ">
-                                        <div class="login-form mx-auto text-center">
-                                            <div class="form-head">
-                                                <img src="assets/images/logo.png" alt="">
-                                                <h2>Register Form</h2>
-                                                <span>We Are Pro Web Designer Team</span>
-                                            </div>
-                                            <form action="">
-                                                <input type="email" name="email" autocomplete="on"
-                                                    placeholder=" Enter Your Email">
-                                                <input type="text" name="user" autocomplete="on"
-                                                    placeholder=" Enter Your User Name">
-                                                <input type="password" name="password" placeholder=" Password">
-                                                <input type="button" value="Register Now">
-                                            </form>
-                                            <div class="links">
-                                                <span>Already have an account </span>
-                                                <a href="#">Login</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- cta area end  -->
         <!-- team area start -->
-        <section class="team-area py-50">
+        <section class="team-area pt-50">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-10 col-lg-8">
@@ -409,7 +377,7 @@
         </section>
         <!-- team area end -->
         <!-- feedback area start -->
-        <section class="feedback-area pt-50">
+        <section id="success" class="feedback-area">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -586,13 +554,14 @@
         </section>
         <!-- feedback area end -->
         <!-- FAQ area  -->
-        <section class="faq-area py-50">
+        <section id="faq" class="faq-area py-50">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title text-center mb-5">
                             <h2>Frequently Asked Questions</h2>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout.</p>
                         </div>
                     </div>
                 </div>
@@ -658,7 +627,7 @@
                                     </h2>
                                     <div id="faq-colls-4" class="accordion-collapse collapse" aria-labelledby="faq-4"
                                         data-bs-parent="#faq-body">
-                                        <div class="accordion-body">Event design and event  planning work hand in hand to
+                                        <div class="accordion-body">Event design and event planning work hand in hand to
                                             deliver a successful event.Events by Knight offer tailor made events. This
                                             means we incorporate both event design and event planning to create that
                                             perfect event.</div>
@@ -678,7 +647,8 @@
                     <div class="col-12">
                         <div class="section-title text-center mb-5">
                             <h2>Trusted by over 800+ companies</h2>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout.</p>
                         </div>
                     </div>
                 </div>
@@ -707,6 +677,36 @@
             </div>
         </section>
         <!-- company area end  -->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Register Now</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body ">
+                        <div class="login-form mx-auto text-center">
+                            <div class="form-head">
+                                <img src="assets/images/logo.png" alt="">
+                                <h2>Register Form</h2>
+                                <span>We Are Pro Web Designer Team</span>
+                            </div>
+                            <form action="">
+                                <input type="email" name="email" autocomplete="on" placeholder=" Enter Your Email">
+                                <input type="text" name="user" autocomplete="on" placeholder=" Enter Your User Name">
+                                <input type="password" name="password" placeholder=" Password">
+                                <input type="button" value="Register Now">
+                            </form>
+                            <div class="links">
+                                <span>Already have an account </span>
+                                <a href="#">Login</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- footer  -->
     <footer class="theme-bg">
@@ -716,14 +716,14 @@
                 <ul>
                     <li><a href="#">Terms of Service </a></li>
                     <li><a href="#">Privacy Policy </a></li>
-                </ul>   
+                </ul>
             </div>
             <p>Copyright © 2023 FY Nila All rights reserved</p>
             <!-- footer social links -->
             <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>           
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>           
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>   
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             </div>
         </div>
     </footer>
