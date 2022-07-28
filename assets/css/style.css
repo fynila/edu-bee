@@ -108,8 +108,10 @@ header .nav-item a:hover::after {
     margin-bottom: 30px;
     font-weight: 300;
 }
-.slide-img img{
-    width:100%;
+.slide-img img {
+    position:absolute;
+    bottom:0;
+    width:400px
 }
 
 /* animation style  */
