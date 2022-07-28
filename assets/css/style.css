@@ -4,8 +4,13 @@
 body{
     font-family: 'Poppins', sans-serif;
     color: rgb(20, 17, 17);
+    line-height: 1.3;
+    font-size: 16px;
 }
-
+h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
+    color: #000248;
+}
 .theme-bg {
     background: #000248;
 }
@@ -51,15 +56,11 @@ body{
 }
 .section-title h2 {
     font-size: 45px;
-    font-weight: 700;
     margin-bottom: 20px;
-    line-height: 1.2;
-    color: #000248;
 }
 .section-title p {
     font-size: 16px;
     color: #3c3c3c;
-    font-weight: 500;
 }
 /* nav section  */
 img{
@@ -67,7 +68,6 @@ img{
 }
 .nav-item a {
     font-size: 20px;
-    font-weight: 500;
     margin-right: 20px;
     position: relative;
     padding-bottom: 0;
@@ -106,16 +106,12 @@ header .nav-item a:hover::after {
 .slider-content h2 {
     font-size: 55px;
     color: #fff;
-    font-weight: 600;
-    line-height: 1.3;
     margin-bottom: 20px;
 }
 .slider-content p {
     color: #fff;
-    line-height: 1.3;
     font-size: 16px;
     margin-bottom: 30px;
-    font-weight: 300;
 }
 .slide-img img {
     position:absolute;
@@ -163,15 +159,10 @@ img.bg-4 {
 /* course area  */
 .course-content h4 {
     font-size: 25px;
-    font-weight: 600;
-    color: #000248;
 }
-.course-content span {
+.course-content h6 {
     font-size: 18px;
-    font-weight: 600;
     margin-bottom: 20px;
-    display: block;
-    color: #000248;
 }
 /* features area  */
 .features-area img {
@@ -179,16 +170,10 @@ img.bg-4 {
 }
 .features-area .card-title {
     font-size: 45px;
-    font-weight: 600;
-    color: #000248;
-    line-height: 1.3;
     margin-bottom: 20px;
 }
 .features-area .feature-info h4 {
     font-size: 45px;
-    font-weight: 600;
-    color: #000248;
-    line-height: 1.3;
     margin-bottom: 20px;
 }
 /* cta area  */
@@ -197,13 +182,11 @@ img.bg-4 {
 }
 .cta-text h2 {
     color: #fff;
-    font-weight: 600;
     font-size: 40px;
     margin-bottom: 20px;
 }
 .cta-text p {
     color: #fff;
-    line-height: 1.5;
 }
 /* modal css  */
 .login-form {
@@ -222,8 +205,6 @@ img.bg-4 {
 }
 .form-head h2 {
     font-size: 25px;
-    color: #000248;
-    font-weight: 600;
     text-transform: capitalize;
     margin: 10px 0;
 }
@@ -316,7 +297,6 @@ footer {
 footer h3 {
     font-size: 35px;
     margin-bottom: 20px;
-    font-weight: 600;
     font-style: italic;
 }
 .footer-nav ul {
