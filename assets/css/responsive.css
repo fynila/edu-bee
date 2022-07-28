@@ -1,0 +1,63 @@
+/* Small devices (landscape phones, 576px and up)  */
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .slider-area .carousel-inner {
+        padding-bottom: 50px;
+    }
+    .slider-content{
+        text-align: center;
+    }
+    .slider-content h2 {
+        font-size: 35px;
+    }
+    .section-title {
+        padding: 50px 10px 20px 10px;
+    }
+    .section-title h2 {
+        font-size: 35px;
+    }
+    .mx-200 {
+        margin: 0 50px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width:991px){ 
+    .slider-area .carousel-inner {
+        padding-bottom: 50px;
+    }
+    .slider-content{
+        text-align: center;
+    }
+    .slider-content h2 {
+        font-size: 35px;
+    }
+    .section-title {
+        padding: 50px 100px 20px 100px;
+    }
+    .section-title h2 {
+        font-size: 35px;
+    }
+    .mx-200 {
+        margin: 0 50px;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width:1200) { 
+    .nav-item a {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    .slider-content h2 {
+        font-size: 35px;
+    }
+    .section-title {
+        padding: 50px 150px 20px 150px;
+    }
+    .features-area .card-title {
+        font-size: 35px;
+    }
+    .features-area .feature-info h4 {
+        font-size: 25px;
+    }
+ }
