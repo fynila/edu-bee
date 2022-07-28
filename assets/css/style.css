@@ -9,6 +9,9 @@ body{
 .theme-bg {
     background: #000248;
 }
+.theme-bg-light {
+    background: #eeecec;
+}
 .edu-btn-primary {
     background: #000248;
     border: 1px solid #fff;
@@ -92,7 +95,7 @@ header .nav-item a:hover::after {
     opacity: 1;
 }
 .slider-content h2 {
-    font-size: 65px;
+    font-size: 55px;
     color: #fff;
     font-weight: 600;
     line-height: 1.3;
