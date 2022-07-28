@@ -47,6 +47,10 @@
     .mx-200 {
         margin: 0 50px;
     }
+    .navbar-nav {
+        padding-top: 25px;
+        text-align: center;
+    }
 
 }
 
@@ -89,6 +93,10 @@
     }
     .nav-btn {
         display: none;
+    }
+    .navbar-nav {
+        padding-top: 25px;
+        text-align: center;
     }
  
 }
