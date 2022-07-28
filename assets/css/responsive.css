@@ -60,7 +60,7 @@
         font-size: 30px;
     }
     .section-title {
-        padding: 50px 10px 20px 10px;
+        padding: 50px 0px 20px 0px;
     }
     .section-title h2 {
         font-size: 25px;
@@ -87,12 +87,17 @@
     .cta-inner {
         padding: 50px 20px;
     }
+    .nav-btn {
+        display: none;
+    }
  
 }
  
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    h2, .features-area .card-title {
-        font-size: 35px;
+    .section-title {
+        padding: 20px;
     }
+
+
 }

@@ -88,6 +88,9 @@ header .nav-item a:hover::after {
     right: auto;
     margin: 0;
 }
+.navbar-toggler:focus {
+    box-shadow: none;
+}
 /* slider area  */
 
 .slider-area .carousel-control-next, 
