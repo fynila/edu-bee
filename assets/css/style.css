@@ -59,6 +59,9 @@ body{
     font-weight: 500;
 }
 /* nav section  */
+img{
+    width: 100%;
+}
 .nav-item a {
     font-size: 20px;
     font-weight: 500;
@@ -112,6 +115,9 @@ header .nav-item a:hover::after {
     position:absolute;
     bottom:0;
     width:400px
+}
+.slide-shapes img {
+    width: inherit;
 }
 
 /* animation style  */
@@ -180,6 +186,9 @@ img.bg-4 {
     margin-bottom: 20px;
 }
 /* cta area  */
+.cta-inner {
+    padding: 100px 50px;
+}
 .cta-text h2 {
     color: #fff;
     font-weight: 600;
